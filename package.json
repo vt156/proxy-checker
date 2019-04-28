@@ -1,0 +1,25 @@
+{
+  "name": "proxy-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write $(find . -path ./node_modules -prune -o -name '*.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KolesnichenkoDS/proxy-checker.git"
+  },
+  "author": "Daniil Kolesnichenko <d.s.kolesnichenko@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KolesnichenkoDS/proxy-checker/issues"
+  },
+  "homepage": "https://github.com/KolesnichenkoDS/proxy-checker#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  }
+}
