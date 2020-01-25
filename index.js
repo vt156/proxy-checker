@@ -12,6 +12,7 @@ const req = options =>
       if (err) {
         reject(err);
       } else {
+        console.log(body);
         resolve(res);
       }
     });
@@ -24,7 +25,7 @@ module.exports.checkProxy = async ({
   proxyPassword
 }) => {
   const reqOptions = {
-    url: "https://www.google.com/",
+    url: "https://lumtest.com/myip.json",
     method: "GET",
     proxy:
       proxyUsername == null
